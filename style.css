@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    text-align: center;
+    background: #040f6a;
+}
+.nav ul{
+    list-style: none;
+    padding: 30px;
+}
+.nav ul li{
+    padding: 10px;
+    display: inline;
+}
+#log{
+    padding-top: 5px;
+    float: right;
+}
+#sign{
+    padding-top: 5px;
+    float: right;
+    margin-right: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+#sign{
+    background: red;
+    color: #000;
+    border-radius: 20px;
+}
+#sign a:hover{
+    color: black;
+}
+#log{
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 20px;
+}
