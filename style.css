@@ -13,15 +13,22 @@
 .nav ul li{
     padding: 10px;
     display: inline;
+    
 }
+/* added a position to align with the list */
 #log{
     padding-top: 5px;
     float: right;
+    position: relative;
+    bottom: 5px;
 }
+/* added a position to align with the list */
 #sign{
     padding-top: 5px;
     float: right;
     margin-right: 10px;
+    position: relative;
+    bottom: 5px;
 }
 .nav ul li a{
     text-decoration: none;
@@ -43,4 +50,18 @@
     border: 1px solid;
     border-color: #fff;
     border-radius: 20px;
+}
+.user{
+    position: relative;
+    right: 55rem;
+    top: 2.8rem;
+}
+
+/* for about.html */
+.heading{
+    position: relative;
+    left: 50rem;
+    top: 4rem;
+    font-size: xx-large;
+    font-family: 'Hedvig Letters Sans', sans-serif;
 }
