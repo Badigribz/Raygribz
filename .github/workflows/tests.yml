@@ -1,0 +1,21 @@
+name: Test my work
+
+on:
+ pull_request:
+ workflow_dispatch: 
+ push:
+    branches: [master]
+    
+jobs:
+  unit-test:
+    name: Run Tests
+    runs-on: windows-latest
+    steps:
+        - uses: actions/checkout@v1
+        - uses: actions/setup-node@v1
+          with:
+           node-version: '20'
+        - run: node --version
+        - run: npm --version 
+        
+      
